@@ -1,0 +1,114 @@
+body {
+    background: #0A1428;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    height: 450px;
+    background-color: #102F57;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    border: 10px solid rebeccapurple;
+}
+
+.my_class {
+    height: 260px;
+    display: flex;
+    align-items: start;
+    margin-top: 50px;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.leading {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Seven Segment";
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+#underline{
+    color: white;
+}
+
+
+
+
+
+
+.score {
+    font-size: 90px;
+}
+
+
+
+.home,
+.guest {
+    text-align: center;
+}
+
+#homeScore,
+#guestScore {
+    font-family: "Seven Segment", sans-serif;
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.score {
+    background-color: black;
+    width: 150px;
+    height: 90px;
+    font-size: 60px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+button {
+    background: #2EC4B6;
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.09);
+}
+
+#New_Game{
+    display: flex;
+    justify-content: center;
+    background: blue;
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#New_Game:hover{
+    background-color: green;
+}
+
+
+
+.inline{
+    display: inline;
+}

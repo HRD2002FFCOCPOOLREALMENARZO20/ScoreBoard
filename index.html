@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Seven+Segment&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <button onclick="new_game()" id="New_Game">New Game</button>
+        </div>
+
+        <div class="my_class">
+            <div class="home">
+                <h1>HOME</h1>
+                <div class="score" id="homeScore">0</div>
+                <button onclick="increment_by_one()">+1</button>
+                <button onclick="increment_by_two()">+2</button>
+                <button onclick="increment_by_three()">+3</button>
+            </div>
+
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="score" id="guestScore">0</div>
+                <button onclick="increment_by_oneG()">+1</button>
+                <button onclick="increment_by_twoG()">+2</button>
+                <button onclick="increment_by_threeG()">+3</button>
+            </div>
+        </div>
+
+        <div class="leading">
+            <h1 class="inline">Leading Team is <h2 class="inline" id="leading_team"><span id="underline">Game is Yet To Start.......!!!</span></h2></h1> 
+        </div>
+    </div>
+
+
+
+    <script src=index.js> </script>
+
+</body>
+
+</html>
